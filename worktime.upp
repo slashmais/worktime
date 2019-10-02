@@ -1,0 +1,36 @@
+uses
+	CtrlLib;
+
+library
+	sqlite3,
+	pthread;
+
+file
+	main.cpp,
+	layouts.h,
+	wt.h,
+	wt.cpp,
+	wt.lay,
+	wt.iml,
+	dbdata.h,
+	dbdata.cpp,
+	dbsqlite3.cpp,
+	dbresult.cpp,
+	wtconfig.h,
+	wtconfig.cpp,
+	wtproject.h,
+	wtproject.cpp,
+	uiproject.h,
+	uiproject.cpp,
+	uiprojectlist.cpp,
+	uiperiods.cpp,
+	uitodo.cpp,
+	uitodolist.cpp,
+	alerter.h,
+	alerter.cpp,
+	utilfunc.h,
+	utilfunc.cpp;
+
+mainconfig
+	"" = "GUI MT SSE2";
+
